@@ -1,6 +1,7 @@
 backend:
   name: git-gateway
   branch: main
+  identity_url: https;//tpracchristianschools.netlify.app/.netlify/identity
 
 media_folder: "site/static/img" # Folder where user uploaded files should go
 public_folder: "img"
@@ -104,3 +105,4 @@ collections: # A list of collections the CMS should be able to edit
                 name: images
                 widget: list
                 field: { label: Image, name: image, widget: image }
+                "Add Identity URL for CMS"
